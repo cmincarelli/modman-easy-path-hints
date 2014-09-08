@@ -10,7 +10,7 @@ Installation
 From the magento docroot folder:
 
 ```
-$ modman install https://github.com/cmincarelli/modman-easy-path-hints.git
+$ modman clone https://github.com/cmincarelli/modman-easy-path-hints.git
 ```
 
 Files can be found in .modman/modman-easy-path-hints
@@ -18,10 +18,10 @@ Files can be found in .modman/modman-easy-path-hints
 Notes
 =====
 
-1. Disable the Cache before Installation or Refresh the Cache after Installation. Disable the Compilation (System > Tools > Compilation)
-2. 
-2. If you get 'Access Denied' or '404' error in System > Configuration, then try to logout & re-login.
-3. Visit official site for more info: http://www.magepsycho.com/easy-template-path-hints.html
+1. Disable the Cache before Installation or Refresh the Cache after Installation.
+2. Enable Symlinks (System > Configuration > Developer > Template Settings) 
+3. If you get 'Access Denied' or '404' error in System > Configuration, then try to logout & re-login.
+4. Visit official site for more info: http://www.magepsycho.com/easy-template-path-hints.html
 
 Modman
 ======
